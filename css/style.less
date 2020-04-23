@@ -32,7 +32,6 @@ body {
             padding: 0;
             align-self: flex-start;
 
-
             &-nav {
                 display: none;
 
@@ -56,7 +55,6 @@ body {
 
         &-mobile {
             display: block;
-
 
             #main-header-mobile-menu {
                 display: none;
@@ -116,8 +114,6 @@ body {
                 align-items: center;
                 padding: 20px;
 
-
-
                 ul {
                     list-style: none;
                     margin: 0;
@@ -146,24 +142,22 @@ body {
         display: flex;
     }
 
-    input[type="checkbox"]:checked~.main-header-mobile-menu-class > span{
-        
+    input[type="checkbox"]:checked~.main-header-mobile-menu-class>span {
         visibility: hidden;
-        
-        &::before{
+
+        &::before {
             visibility: visible;
             transform: rotate(45deg);
-            top:-7px;
+            top: -7px;
         }
-        &:after{
+
+        &:after {
             visibility: visible;
             transform: rotate(-45deg);
         }
-       
+
 
     }
-
-    
 
     .services {
         padding: 20px 20px;
