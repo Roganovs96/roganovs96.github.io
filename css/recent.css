@@ -25,11 +25,12 @@
   letter-spacing: normal;
   text-align: center;
   color: #8c8c8c;
-  width: 760px;
+  max-width: 760px;
   margin: 0 0 40px 0;
 }
 .recent-article {
   display: flex;
+  flex-wrap: wrap;
 }
 .recent-article-block {
   width: 370px;
@@ -120,6 +121,20 @@
   text-align: left;
   color: #c7b299;
   margin: 0 0 33px 30px;
+  text-decoration: none;
+  position: relative;
+}
+.recent-article-block-txt-a:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 8px;
+  margin: 0 auto;
+  align-self: flex-end;
+  background-image: url(../img/low-arrow-readme.png);
+  position: absolute;
+  top: 7px;
+  right: 250px;
 }
 .recent-article :hover .recent-article-block-img-date-up {
   background-color: #c7b299;
@@ -158,4 +173,7 @@
 }
 .recent-arrows-btn :hover {
   fill: #c7b299;
+}
+.recent-arrows-btn :active {
+  transform: scale(1.2);
 }
