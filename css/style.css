@@ -16,7 +16,7 @@ body {
 }
 @media (max-width: 576px) {
   body {
-    width: 576px;
+    max-width: 576px;
   }
   .main-header {
     padding: 20px;
