@@ -246,7 +246,7 @@ body {
   .partners {
     padding: 20px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     min-height: auto;
     width: auto;
